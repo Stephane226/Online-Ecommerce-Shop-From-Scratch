@@ -57,7 +57,6 @@ body {
 }
 
 .section-top .header-medium {
-  width: 100%;
   height: 40px;
   background-color: #f8f6f4;
   padding: 30px;
@@ -121,6 +120,53 @@ body {
 .section-top .header-main-menu {
   width: 100%;
   height: 50px;
-  background-color: black;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.section-top .header-main-menu .main-menu {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-top .header-main-menu .main-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  width: 100%;
+  color: white;
+  font-size: 17px;
+}
+
+.section-top .header-main-menu .main-menu ul .fa-bars {
+  font-size: 20px;
+}
+
+.section-top .header-main-menu .main-menu ul li {
+  border-right: 1px solid gray;
+  width: 15%;
+  padding: 5px;
+  list-style: none;
+  font-size: 15px;
+}
+
+.section-top .header-main-menu .main-menu ul li:first-child {
+  width: 250px;
+  font-size: 15px;
+}
+
+.section-top .header-main-menu .main-menu ul li:first-child .fa-bars {
+  margin-right: 10px;
+}
+
+.section-top .header-main-menu .main-menu ul li:first-child .fa-chevron-down {
+  margin-left: 10px;
+}
+
+.section-top .slider-home {
+  width: 100%;
+  height: 500px;
+  background-color: green;
 }
 /*# sourceMappingURL=style.css.map */

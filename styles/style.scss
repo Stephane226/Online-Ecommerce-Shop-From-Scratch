@@ -1,5 +1,7 @@
 $MainThemeColor: orange;
 $SmallFont: 13px;
+$bigFont:17px;
+
 $full : 100%;
 
 
@@ -58,7 +60,7 @@ body{
     //styles for the secondary menu
 
     .header-medium{
-        width:$full;
+        //width:$full;
         height:40px;
         background-color:rgb(248, 246, 244);
         padding:30px;
@@ -123,7 +125,50 @@ body{
     .header-main-menu{
         width:100%;
         height:50px;
-        background-color:rgb(0, 0, 0)
+        padding:10px;
+        background-color:rgba(0, 0, 0,0.9);
+    .main-menu{
 
+        width:80%;
+        margin:0 auto;
+        ul{
+            display:flex;
+            height:40px;
+            width:$full;
+            color:white;
+            font-size:$bigFont;
+
+            .fa-bars{
+                 font-size:20px;
+            }
+            li{ 
+                border-right:1px solid gray;
+                width:15%;
+                padding:5px;
+                list-style: none;
+                font-size: 15px;
+            }
+        }
+        ul li:first-child{
+            width:250px;
+            font-size: 15px;
+            .fa-bars{
+                margin-right:10px
+            }
+            .fa-chevron-down{
+                margin-left:10px;
+            }
+            
+
+        }
+    }
+       
+
+    }
+
+    .slider-home{
+        width:100%;
+        height:500px;
+        background-color:green
     }
 }
