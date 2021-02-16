@@ -66,11 +66,50 @@ body {
 .section-top .header-medium .header-Medium-cnt {
   width: 80%;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.section-top .header-medium .logo span {
+.section-top .header-medium .header-Medium-cnt .logo span {
   font-size: 20px;
   color: orange;
   padding: 10px;
+}
+
+.section-top .header-medium .header-Medium-cnt .select-search-section {
+  width: 50%;
+  height: 30px;
+  border: 1px solid gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-top .header-medium .header-Medium-cnt .medium-dropdow-list {
+  display: none;
+}
+
+.section-top .header-medium .header-Medium-cnt .select-categories {
+  width: 25%;
+  height: 100%;
+  padding: 5px;
+}
+
+.section-top .header-medium .header-Medium-cnt .search-bar {
+  width: 65%;
+  height: 100%;
+  border-left: 1px solid gray;
+}
+
+.section-top .header-medium .header-Medium-cnt .search-button-icon {
+  border-left: 1px solid gray;
+}
+
+.section-top .header-medium .header-Medium-cnt .shoping-cart-top span {
+  margin-right: 5px;
 }
 /*# sourceMappingURL=style.css.map */

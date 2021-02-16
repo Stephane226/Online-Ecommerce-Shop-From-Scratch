@@ -63,15 +63,53 @@ body{
         background-color:rgb(255, 247, 240);
         padding:20px;
         .header-Medium-cnt{
+
+            .logo span{
+                font-size:20px;
+                color:$MainThemeColor;
+                padding:10px;
+    
+    
+            }
+
+
             width:80%;
             margin: 0 auto;
-        }
-        .logo span{
-            font-size:20px;
-            color:$MainThemeColor;
-            padding:10px;
+            display:flex;
+            justify-content: space-between;
 
+            .select-search-section{
+                width:50%;
+                height:30px;
+                border:1px solid gray;
+                display:flex;
+            }
+            .medium-dropdow-list{
+                display:none;
+            }
+           .select-categories{
+               width:25%;
+               height:100%;
+               padding:5px;
+           }
+           .search-bar{
+               width:65%;
+               height:100%;
+               border-left:1px solid gray;
+               
+           }
 
+           .search-button-icon{
+               border-left:1px solid gray;
+               
+           }
+            .shoping-cart-top{
+                 
+                span{
+                    margin-right:5px;
+                }
+            }
         }
+     
     }
 }
