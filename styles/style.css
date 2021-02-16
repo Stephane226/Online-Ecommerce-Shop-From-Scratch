@@ -8,6 +8,7 @@ body {
   width: 100%;
   height: 30px;
   border-bottom: 1px solid #cfc8c8;
+  font-size: 13px;
   background-color: #f8f7f6;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -53,5 +54,23 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-right: 5px;
+}
+
+.section-top .header-medium {
+  width: 100%;
+  height: 40px;
+  background-color: #fff7f0;
+  padding: 20px;
+}
+
+.section-top .header-medium .header-Medium-cnt {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-top .header-medium .logo span {
+  font-size: 20px;
+  color: orange;
+  padding: 10px;
 }
 /*# sourceMappingURL=style.css.map */
