@@ -1,5 +1,5 @@
 body {
-  background-color: #eeeeee;
+  background-color: white;
   padding: 0;
   margin: 0;
 }
@@ -75,7 +75,7 @@ body {
 
 .section-top .header-medium .header-Medium-cnt .logo span {
   font-size: 20px;
-  color: orange;
+  color: #ff8800;
   padding: 10px;
 }
 
@@ -118,7 +118,6 @@ body {
 }
 
 .section-top .header-main-menu {
-  width: 100%;
   height: 50px;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.9);
@@ -166,7 +165,36 @@ body {
 
 .section-top .slider-home {
   width: 100%;
-  height: 500px;
-  background-color: green;
+  height: 600px;
+  background-color: white;
+  background-image: url("../images/banner/banner3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.section-top .slider-home .banner-content-text {
+  width: 80%;
+  position: absolute;
+  margin: 0 auto;
+  bottom: 200px;
+  margin-left: 180px;
+}
+
+.section-top .slider-home .banner-content-text h5 {
+  color: red;
+}
+
+.section-top .slider-home .banner-content-text p {
+  width: 45%;
+  font-size: 17px;
+}
+
+.section-top .slider-home .banner-content-text button {
+  width: 200px;
+  height: 50px;
+  border: 1px solid gray;
+  background-color: #ff8800;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
