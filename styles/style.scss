@@ -233,9 +233,34 @@ body{
                  height:100px;
              }
     }
-    .divider-line{
-        width:100%;
-        height:10px;
-        background-color:black
+    
+}
+.divider-line{
+    width:100%;
+    text-align:center;
+    margin-top:30px;
+    height:40px;
+    background-color:black;
+
+    .product-tab-title{
+           width:200px;
+           margin:0 auto;
+           color:white;
+           max-height:30px;
+           padding:5px
+          
+          
     }
+    h4{
+        margin:10px;
+    }
+
+    .fa-sort-down{
+        
+        font-size:80px;
+        margin-top:-100px;
+        color:black;
+       
+    }
+   
 }
