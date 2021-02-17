@@ -57,8 +57,8 @@ body {
 }
 
 .section-top .header-medium {
-  height: 40px;
-  background-color: #f8f6f4;
+  height: 65px;
+  background-color: #e7e7e7;
   padding: 30px;
 }
 
@@ -74,9 +74,11 @@ body {
 }
 
 .section-top .header-medium .header-Medium-cnt .logo span {
-  font-size: 20px;
+  font-size: 27px;
   color: #ff8800;
   padding: 10px;
+  font-weight: 600;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .section-top .header-medium .header-Medium-cnt .select-search-section {
@@ -199,7 +201,7 @@ body {
 }
 
 .fields-service-section {
-  width: 70%;
+  width: 75%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -207,5 +209,31 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.field-service {
+  margin-top: 20px;
+  width: 30%;
+  height: auto;
+  padding: 10px;
+  background-color: #ff8800;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.field-service .field-elem {
+  margin: 10px;
+}
+
+.field-service .field-icon img {
+  width: 100px;
+  height: 100px;
+}
+
+.field-service .divider-line {
+  width: 100%;
+  height: 10px;
+  background-color: black;
 }
 /*# sourceMappingURL=style.css.map */
