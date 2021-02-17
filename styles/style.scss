@@ -267,31 +267,17 @@ body{
 .top-products-hp{
     margin-top:20px;
     width:80%;
-    height:auto;
+    height:200px;
     background-color: rgb(58, 128, 52);
     margin:0 auto;
 }
 
-.responsive-products-display-row{
-    width:50%
-}
-.top-products-hp{
-    display:flex;
-    div{
-        display:flex;
-
-    }
-}
 .product-item{
     border:1px solid gray;
     margin:2px;
-  width:45%;
+  width:22%;
   height:auto;
   background-color:rgb(219, 219, 219);
-
-  div{
-      display:block
-  }
 
 
 

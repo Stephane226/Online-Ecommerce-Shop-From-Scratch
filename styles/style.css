@@ -260,37 +260,17 @@ body {
 .top-products-hp {
   margin-top: 20px;
   width: 80%;
-  height: auto;
+  height: 200px;
   background-color: #3a8034;
   margin: 0 auto;
-}
-
-.responsive-products-display-row {
-  width: 50%;
-}
-
-.top-products-hp {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.top-products-hp div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .product-item {
   border: 1px solid gray;
   margin: 2px;
-  width: 45%;
+  width: 22%;
   height: auto;
   background-color: #dbdbdb;
-}
-
-.product-item div {
-  display: block;
 }
 
 .product-item .item-image img {
