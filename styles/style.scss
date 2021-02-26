@@ -267,9 +267,10 @@ body{
 .top-products-hp{
     margin-top:20px;
     width:80%;
-    height:200px;
-    background-color: rgb(58, 128, 52);
+    background-color: rgb(255, 251, 239);
     margin:0 auto;
+    display:flex;
+    justify-content:space-between;
 }
 
 .product-item{
