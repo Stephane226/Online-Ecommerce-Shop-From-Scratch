@@ -258,22 +258,19 @@ body {
 }
 
 .top-products-hp {
-  margin-top: 20px;
   width: 80%;
+  padding-top: 20px;
   background-color: #fffbef;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .product-item {
   border: 1px solid gray;
   margin: 2px;
-  width: 22%;
+  width: 45%;
   height: auto;
   background-color: #dbdbdb;
 }
@@ -321,5 +318,14 @@ body {
 .product-item .product-short-info .fas {
   font-size: 10px;
   color: yellow;
+}
+
+.responsive-product-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50%;
 }
 /*# sourceMappingURL=style.css.map */
