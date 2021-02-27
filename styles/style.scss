@@ -395,7 +395,12 @@ border-radius:50%;
     justify-content: space-around;
 }
 
-
+.stylishh1{
+    text-align:center;
+    font-weight:200;
+    color:rgb(107, 107, 107);
+    padding:20px;
+}
 .style-products-section{
     //background-color:rgb(223, 221, 221);
     width:$full;
@@ -417,6 +422,7 @@ border-radius:50%;
                ul{
                    position:absolute;
                    top:0;
+                   margin-top:40px;
                    right:0;
                    list-style: none;
                    padding:5px;
@@ -470,17 +476,32 @@ border-radius:50%;
 
 
                    .feature-round{
-                       width:50px;
-                       height:50px;
+                       width:40px;
+                       height:40px;
                        border-radius:50%;
-                  
+                       padding:10px;
                       text-align:center;
-                      
-                      .round1{
-                          background-color:pink
-                      }
+                    
 
                    }
+
+                 .feature-round2{
+                    width:80px;
+                    height:30px;
+                    padding:5px;
+                   text-align:center;
+                   font-size:14px
+                 
+
+                }
+                     
+                   .round1{
+                    background-color:rgb(245, 109, 132)
+                }
+                .round2{
+                    background-color:rgb(0, 0, 0);
+                    color:white;
+                }
                }
            }
 

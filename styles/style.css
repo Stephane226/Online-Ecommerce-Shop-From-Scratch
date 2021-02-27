@@ -401,6 +401,13 @@ body {
       justify-content: space-around;
 }
 
+.stylishh1 {
+  text-align: center;
+  font-weight: 200;
+  color: #6b6b6b;
+  padding: 20px;
+}
+
 .style-products-section {
   width: 100%;
   margin-top: 20px;
@@ -429,6 +436,7 @@ body {
 .style-products-section .style-products .style-products-item ul {
   position: absolute;
   top: 0;
+  margin-top: 40px;
   right: 0;
   list-style: none;
   padding: 5px;
@@ -485,13 +493,27 @@ body {
 }
 
 .style-products-section .style-products .style-products-item .style-products-item-top .feature-round {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
+  padding: 10px;
   text-align: center;
 }
 
-.style-products-section .style-products .style-products-item .style-products-item-top .feature-round .round1 {
-  background-color: pink;
+.style-products-section .style-products .style-products-item .style-products-item-top .feature-round2 {
+  width: 80px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.style-products-section .style-products .style-products-item .style-products-item-top .round1 {
+  background-color: #f56d84;
+}
+
+.style-products-section .style-products .style-products-item .style-products-item-top .round2 {
+  background-color: black;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
