@@ -400,4 +400,98 @@ body {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
+
+.style-products-section {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.style-products-section .style-products {
+  width: 96%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.style-products-section .style-products .style-products-item {
+  width: 23%;
+  height: 400px;
+  position: relative;
+}
+
+.style-products-section .style-products .style-products-item img {
+  max-width: 100%;
+}
+
+.style-products-section .style-products .style-products-item ul {
+  position: absolute;
+  top: 0;
+  right: 0;
+  list-style: none;
+  padding: 5px;
+  background-color: white;
+}
+
+.style-products-section .style-products .style-products-item ul li {
+  margin-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.style-products-section .style-products .style-products-item .name-price-like-heart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.style-products-section .style-products .style-products-item .name-price-like-heart .name-price h4 {
+  margin: 3px;
+}
+
+.style-products-section .style-products .style-products-item .name-price-like-heart .name-price .price-value-borrow {
+  text-decoration: line-through;
+  color: #969696;
+}
+
+.style-products-section .style-products .style-products-item .name-price-like-heart .fa-heart {
+  color: red;
+  font-size: 20px;
+}
+
+.style-products-section .style-products .style-products-item .stylish-creation-title {
+  margin-top: 10px;
+  font-weight: 200;
+  font-size: 18px;
+  color: #7e7e7e;
+}
+
+.style-products-section .style-products .style-products-item .style-products-item-top {
+  position: absolute;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-top: -20px;
+}
+
+.style-products-section .style-products .style-products-item .style-products-item-top .feature-round {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.style-products-section .style-products .style-products-item .style-products-item-top .feature-round .round1 {
+  background-color: pink;
+}
 /*# sourceMappingURL=style.css.map */

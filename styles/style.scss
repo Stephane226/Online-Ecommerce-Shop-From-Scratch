@@ -394,3 +394,97 @@ border-radius:50%;
     margin:0 auto;
     justify-content: space-around;
 }
+
+
+.style-products-section{
+    //background-color:rgb(223, 221, 221);
+    width:$full;
+    margin-top:20px;
+    .style-products{
+           width:96%;
+           margin:0 auto;
+           display:flex;
+           justify-content: space-around;
+           
+           .style-products-item{
+               width:23%;
+               height:400px;
+               position:relative;
+
+               img{
+                   max-width:100%;
+               }
+               ul{
+                   position:absolute;
+                   top:0;
+                   right:0;
+                   list-style: none;
+                   padding:5px;
+                   background-color:rgb(255, 255, 255);
+
+
+                   li{
+                       margin-bottom:30px;
+                       padding-left:10px;
+                       padding-right:10px;
+                   }
+               }
+
+               .name-price-like-heart{
+                   display:flex;
+                   justify-content: space-between;
+
+
+                .name-price{
+                      h4{
+                          margin:3px;
+                      }
+                      .price-value{
+                         
+                      }
+                      .price-value-borrow{
+                          text-decoration:line-through;
+                          color:rgb(150, 150, 150)
+                      }
+                }
+                .fa-heart{
+                   color:red;
+                   font-size:20px;
+                }
+               }
+               .stylish-creation-title{
+                   margin-top:10px;
+                   font-weight: 200;
+                   font-size:18px;
+                   color:rgb(126, 126, 126)
+               }
+
+
+               .style-products-item-top{
+                   position:absolute;
+                   top:0;
+                   display:flex;
+                   justify-content: space-between;
+                   width:100%;
+                   margin-top:-20px;
+
+
+                   .feature-round{
+                       width:50px;
+                       height:50px;
+                       border-radius:50%;
+                  
+                      text-align:center;
+                      
+                      .round1{
+                          background-color:pink
+                      }
+
+                   }
+               }
+           }
+
+
+
+    }
+}
