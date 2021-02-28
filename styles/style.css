@@ -730,4 +730,40 @@ body {
   text-align: left;
   font-size: 15px;
 }
+
+.footer-section .footer-parent .footer-part .footer-about a {
+  text-decoration: none;
+  color: #ff8800;
+  font-size: 15px;
+}
+
+.footer-section .footer-parent .social-icons-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-section .footer-parent .social-icons-footer span {
+  font-size: 30px;
+}
+
+.footer-section .footer-parent .social-icons-footer .a-facebook-square {
+  color: blue;
+}
+
+.footer-section .footer-parent .social-icons-footer .fa-instagram-square {
+  color: pink;
+}
+
+.footer-section .footer-parent .social-icons-footer .fa-twitter-square {
+  color: blue;
+}
+
+.footer-section .footer-parent .social-icons-footer .fa-pinterest-square {
+  color: red;
+}
 /*# sourceMappingURL=style.css.map */

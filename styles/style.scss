@@ -717,8 +717,38 @@ border-radius:50%;
                margin:0 auto;
                text-align:left;
                font-size:15px;
+                        
 
+               a{
+                text-decoration:none;
+                color:$MainThemeColor;
+                font-size:15px;
+            }
 
+           }
+        }
+
+        .social-icons-footer{
+
+            display:flex;
+            width:50%;
+            justify-content: space-between;
+           span{
+               font-size:30px;
+           }
+           .a-facebook-square{
+               color:blue
+           }
+           .fa-instagram-square{
+               color:pink;
+
+           }
+
+           .fa-twitter-square{
+               color:blue
+           }
+           .fa-pinterest-square{
+               color:red
            }
         }
         
