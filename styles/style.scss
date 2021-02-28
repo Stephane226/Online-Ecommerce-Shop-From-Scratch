@@ -19,7 +19,7 @@ body{
     background-color:$MainThemeColor;
     cursor:pointer; 
 }
-
+  
 .section-top{
 
     .header-top{
@@ -633,5 +633,34 @@ border-radius:50%;
             font-size:15px;
             text-align:center; 
         }
+    }
+}
+
+
+.payements-option-section{
+    margin-top:20px;
+    margin-bottom:20px;
+    width:100%;
+    height:auto;
+    padding-bottom:20px;
+    background-color: rgb(250, 215, 245);
+}
+.payement-options{
+    width:90%;
+    display:flex;
+    margin:0 auto;
+    justify-content:space-around;
+
+    .payement-options-responsive1{
+        height:95px;
+        width:50%;
+        background-image:url('../images/icons/payment-option1.png');
+        background-size:cover;
+    } 
+    .payement-options-responsive2{
+        height:95px;
+        width:50%;
+        background-image:url('../images/icons/payment-option2.png');
+        background-size:cover;
     }
 }

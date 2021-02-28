@@ -647,4 +647,37 @@ body {
   font-size: 15px;
   text-align: center;
 }
+
+.payements-option-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  background-color: #fad7f5;
+}
+
+.payement-options {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.payement-options .payement-options-responsive1 {
+  height: 95px;
+  width: 50%;
+  background-image: url("../images/icons/payment-option1.png");
+  background-size: cover;
+}
+
+.payement-options .payement-options-responsive2 {
+  height: 95px;
+  width: 50%;
+  background-image: url("../images/icons/payment-option2.png");
+  background-size: cover;
+}
 /*# sourceMappingURL=style.css.map */
