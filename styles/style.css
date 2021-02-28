@@ -680,4 +680,26 @@ body {
   background-image: url("../images/icons/payment-option2.png");
   background-size: cover;
 }
+
+.footer-section {
+  height: auto;
+  padding: 10px;
+  background-color: #252424;
+  color: white;
+}
+
+.footer-section .footer-parent {
+  width: 98%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-section .footer-parent .footer-part {
+  width: 25%;
+  height: 300px;
+  color: whitesmoke;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */

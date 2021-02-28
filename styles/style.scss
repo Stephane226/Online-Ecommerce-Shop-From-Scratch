@@ -664,3 +664,28 @@ border-radius:50%;
         background-size:cover;
     }
 }
+
+
+
+
+.footer-section{ 
+    height:auto;
+    padding:10px;
+    background-color:rgb(37, 36, 36);
+    color:white;
+
+
+    .footer-parent{
+        width:98%;
+        margin:0 auto;
+        display:flex;
+
+        .footer-part{
+            width:25%;
+            height:300px;
+            color:whitesmoke;
+            text-align:center;
+        }
+        
+    }
+} 
