@@ -753,4 +753,13 @@ border-radius:50%;
         }
         
     }
+    .copyright{
+        width:100%;
+        height:auto;
+        padding:5px;
+        background-color:$MainThemeColor;
+        color:black;
+        display:flex;
+        justify-content: space-around;
+    }
 } 

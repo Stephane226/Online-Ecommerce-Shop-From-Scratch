@@ -766,4 +766,17 @@ body {
 .footer-section .footer-parent .social-icons-footer .fa-pinterest-square {
   color: red;
 }
+
+.footer-section .copyright {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  background-color: #ff8800;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
 /*# sourceMappingURL=style.css.map */
