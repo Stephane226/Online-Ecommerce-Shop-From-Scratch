@@ -4,8 +4,9 @@ body {
   margin: 0;
 }
 
-button:hover {
+*button:hover {
   background-color: #ff8800;
+  cursor: pointer;
 }
 
 .section-top .header-top {

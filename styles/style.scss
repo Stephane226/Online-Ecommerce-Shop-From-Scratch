@@ -15,9 +15,9 @@ body{
    
 }
 
-button:hover{
+*button:hover{
     background-color:$MainThemeColor;
-    cursor:pointer;
+    cursor:pointer; 
 }
 
 .section-top{
