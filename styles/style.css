@@ -697,9 +697,37 @@ body {
 }
 
 .footer-section .footer-parent .footer-part {
-  width: 25%;
+  width: 20%;
   height: 300px;
   color: whitesmoke;
-  text-align: center;
+  text-align: left;
+}
+
+.footer-section .footer-parent .footer-part .footer-headers {
+  text-transform: uppercase;
+  color: #ff8800;
+}
+
+.footer-section .footer-parent .footer-part ul li {
+  list-style: none;
+  margin: 10px;
+  text-align: left;
+}
+
+.footer-section .footer-parent .footer-part ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.footer-section .footer-parent .footer-part ul li a:hover {
+  color: #ff8800;
+}
+
+.footer-section .footer-parent .footer-part .footer-about {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 15px;
 }
 /*# sourceMappingURL=style.css.map */

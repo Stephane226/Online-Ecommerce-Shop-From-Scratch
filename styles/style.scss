@@ -681,10 +681,45 @@ border-radius:50%;
         display:flex;
 
         .footer-part{
-            width:25%;
+            width:20%;
             height:300px;
             color:whitesmoke;
-            text-align:center;
+            text-align:left;
+
+            .footer-headers{
+                text-transform: uppercase;
+                color:$MainThemeColor;
+
+                h4{
+
+                }
+            }
+
+           ul{
+               li{
+                   list-style:none;
+                   margin:10px;
+                   text-align:left;
+                   a{
+                       text-decoration:none;
+                       color:white;
+                       font-size:15px;
+                   }
+                   a:hover{
+                       color:$MainThemeColor;
+                    
+                   }
+               }
+           }
+
+           .footer-about{
+               width:80%;
+               margin:0 auto;
+               text-align:left;
+               font-size:15px;
+
+
+           }
         }
         
     }
