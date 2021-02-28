@@ -578,8 +578,9 @@ border-radius:50%;
 .latest-news-home-section{
     width:100%;
     .latest-news-home{
-        width:94%;
-        margin:0 auto;
+        width:98%;
+        border-left:1px solid gray;
+        margin:0 auto; 
         display:flex;
         justify-content:space-between;
 
@@ -601,26 +602,31 @@ border-radius:50%;
                 } 
 
                 .latest-news-text{
-                    width:60%;
-                    padding:5px;
+                    width:60%; 
+                    p{
+                        font-size:17px;
+                        margin:0;
+                        padding:5px;
+
+                    }
                     
                 }
 
-                button{
-                    width:100px;
-                    height:20px;
-                    padding:5px;
-                    outline:none;
-                    background-color:black;
-
-                    color:white;
-                    font-size:15px;
-                    text-align:center;
-                }
+               
             }
 
 
         }
-
+        button{
+            width:130px;
+            padding-top:15px;
+            padding-bottom:15px;
+            outline:none;
+            background-color:black;
+             border:none;
+            color:white;
+            font-size:15px;
+            text-align:center; 
+        }
     }
 }

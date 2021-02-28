@@ -589,7 +589,8 @@ body {
 }
 
 .latest-news-home-section .latest-news-home {
-  width: 94%;
+  width: 98%;
+  border-left: 1px solid gray;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -622,6 +623,23 @@ body {
 
 .latest-news-home-section .latest-news-home .latest-news-intro .latest-news-one .latest-news-text {
   width: 60%;
+}
+
+.latest-news-home-section .latest-news-home .latest-news-intro .latest-news-one .latest-news-text p {
+  font-size: 17px;
+  margin: 0;
   padding: 5px;
+}
+
+.latest-news-home-section .latest-news-home button {
+  width: 130px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  outline: none;
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 15px;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
