@@ -44,12 +44,41 @@ function showUl(event){
     var u ;
     for(u=0; u < imgList.length; u++){
         imgList[0].addEventListener('mouseover', function(event){
-              event.target.src = 'stylesCreationsSecong0.jpg'
+              event.target.src = 'images/products/stylesCreationsSecong0.jpg'
         })
         imgList[0].addEventListener('mouseout', function(event){
             event.target.src = 'images/products/stylesCreationsA1.jpg'
       })
+
+
+      imgList[1].addEventListener('mouseover', function(event){
+        event.target.src = 'images/products/stylesCreationsSecong1.jpg'
+  })
+  imgList[1].addEventListener('mouseout', function(event){
+      event.target.src = 'images/products/stylesCreationsB1.jpg'
+})
+         
+
+
+imgList[2].addEventListener('mouseover', function(event){
+    event.target.src = 'images/products/stylesCreationsSecong2.jpg'
+})
+imgList[2].addEventListener('mouseout', function(event){
+  event.target.src = 'images/products/stylesCreationsC1.jpg'
+})
+      
+
+
+imgList[3].addEventListener('mouseover', function(event){
+    event.target.src = 'images/products/stylesCreationsSecong3.jpg'
+})
+imgList[3].addEventListener('mouseout', function(event){
+  event.target.src = 'images/products/stylesCreationsD1.jpg'
+})
+
         
+
+      
         
         
         
