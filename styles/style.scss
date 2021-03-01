@@ -15,6 +15,9 @@ body{
    
 }
 
+.displayBlock{
+    display:block;
+}
 *button:hover{
     background-color:$MainThemeColor;
     cursor:pointer; 
@@ -418,7 +421,6 @@ border-radius:50%;
            
            .style-products-item{
                width:23%;
-               height:400px;
                position:relative;
 
                img{
@@ -432,7 +434,7 @@ border-radius:50%;
                    list-style: none;
                    padding:5px;
                    background-color:rgb(255, 255, 255);
-
+                    display:none;
 
                    li{
                        margin-bottom:30px;

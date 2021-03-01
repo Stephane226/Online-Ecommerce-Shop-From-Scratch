@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+.displayBlock {
+  display: block;
+}
+
 *button:hover {
   background-color: #ff8800;
   cursor: pointer;
@@ -430,7 +434,6 @@ body {
 
 .style-products-section .style-products .style-products-item {
   width: 23%;
-  height: 400px;
   position: relative;
 }
 
@@ -446,6 +449,7 @@ body {
   list-style: none;
   padding: 5px;
   background-color: white;
+  display: none;
 }
 
 .style-products-section .style-products .style-products-item ul li {
