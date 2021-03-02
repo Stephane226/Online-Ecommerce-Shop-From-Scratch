@@ -85,3 +85,14 @@ imgList[3].addEventListener('mouseout', function(event){
       
     }
    
+    //close the shopping cart
+
+    let closeCart = document.getElementById('close-shopping-cart');
+    closeCart.addEventListener('click', function(){
+        document.getElementsByClassName('shopping-cart-pop')[0].style.display = 'none';
+    })
+
+    let showCart = document.getElementById('show-cart');
+    showCart.addEventListener('click', function(){
+        document.getElementsByClassName('shopping-cart-pop')[0].style.display = 'block';
+    })
