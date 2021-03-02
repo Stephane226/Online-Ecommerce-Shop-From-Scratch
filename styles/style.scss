@@ -777,6 +777,8 @@ border-radius:50%;
     overflow-x: hidden;
     padding-top: 20px;
     border-left:1px solid black;
+    display:none;
+    
      
 }
 
@@ -813,7 +815,7 @@ border-radius:50%;
     background-color:white;
     display:flex;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-
+    margin-bottom:4px;
      .one-shop-img{
          width:30%;
 
@@ -845,4 +847,19 @@ border-radius:50%;
             font-size:18px;
          }
      }
+}
+.total{
+
+background-color:white;
+table{
+    width:100%;
+    height:50px;
+    position:absolute;
+    bottom:0;
+    background-color:$MainThemeColor;
+    color:white;
+    font-size:18px;
+    font-weight:500;
+    padding-bottom:10px;
+}
 }

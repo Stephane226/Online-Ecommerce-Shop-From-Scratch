@@ -91,7 +91,7 @@ imgList[3].addEventListener('mouseout', function(event){
     closeCart.addEventListener('click', function(){
         document.getElementsByClassName('shopping-cart-pop')[0].style.display = 'none';
     })
-
+   //show the shopping cart
     let showCart = document.getElementById('show-cart');
     showCart.addEventListener('click', function(){
         document.getElementsByClassName('shopping-cart-pop')[0].style.display = 'block';
