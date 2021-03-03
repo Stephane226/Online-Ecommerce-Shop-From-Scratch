@@ -98,3 +98,7 @@ imgList[3].addEventListener('mouseout', function(event){
     function showCartFunction(){
         document.getElementsByClassName('shopping-cart-pop')[0].style.display = 'block';
     }
+
+
+
+    

@@ -37,7 +37,7 @@ function addProductToBasket(event){
                             <img src="${images.src}" alt="">
                         </div>
                         <div class="one-shop-title-price">
-                            <h3>${productTitle}</h3>
+                            <h3>${productTitle.textContent}</h3>
                             <span>$79</span>
                         </div>
                         <div class="one-shop-remove-numb">
@@ -59,11 +59,13 @@ var shoppingCartUi = document.getElementById('shopping-card-parent-content');
 shoppingCartUi.appendChild(div);
 
 
-var deleteIcon = document.getElementsByClassName('fa-times')[0];
+var deleteIcon = div.getElementsByClassName('fa-times')[0];
+
+
 deleteIcon.addEventListener('click', deleteItemFromCart);
 
 function deleteItemFromCart(){
-  productParent.remove()
+  deleteIcon.parentElement.parentElement.parentElement.parentElement.remove()
 }
 
 ///show the card
