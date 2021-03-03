@@ -56,6 +56,8 @@ function addProductToBasket(event){
      div.innerHTML = AddToCartRow;
 var shoppingCartUi = document.getElementById('shopping-card-parent-content');
 
-shoppingCartUi.appendChild(div)
+shoppingCartUi.appendChild(div);
+
+showCartFunction()
 
 }

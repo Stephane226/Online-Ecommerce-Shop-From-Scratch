@@ -784,7 +784,7 @@ body {
 }
 
 .shopping-cart-pop {
-  height: 100%;
+  height: 100vh;
   width: 400px;
   position: fixed;
   z-index: 1;
@@ -816,6 +816,8 @@ body {
 .shopping-cart-content {
   width: 100%;
   padding: 3px;
+  height: 100vh;
+  overflow-y: scroll;
 }
 
 .one-shoping-element {

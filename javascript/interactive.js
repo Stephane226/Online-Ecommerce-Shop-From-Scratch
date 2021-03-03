@@ -93,6 +93,8 @@ imgList[3].addEventListener('mouseout', function(event){
     })
    //show the shopping cart
     let showCart = document.getElementById('show-cart');
-    showCart.addEventListener('click', function(){
+    showCart.addEventListener('click', showCartFunction);
+
+    function showCartFunction(){
         document.getElementsByClassName('shopping-cart-pop')[0].style.display = 'block';
-    })
+    }
