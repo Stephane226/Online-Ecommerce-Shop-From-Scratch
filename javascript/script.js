@@ -58,6 +58,15 @@ var shoppingCartUi = document.getElementById('shopping-card-parent-content');
 
 shoppingCartUi.appendChild(div);
 
+
+var deleteIcon = document.getElementsByClassName('fa-times')[0];
+deleteIcon.addEventListener('click', deleteItemFromCart);
+
+function deleteItemFromCart(){
+  productParent.remove()
+}
+
+///show the card
 showCartFunction()
 
 }
