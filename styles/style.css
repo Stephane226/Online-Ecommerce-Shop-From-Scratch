@@ -787,6 +787,7 @@ body {
   height: 100vh;
   width: 400px;
   position: fixed;
+  overflow-y: hidden;
   z-index: 1;
   top: 0;
   right: 0;
