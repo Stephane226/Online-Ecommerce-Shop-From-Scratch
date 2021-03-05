@@ -910,4 +910,23 @@ body {
 .hover-descritpion-products-cnt {
   padding: 10px;
 }
+
+.hover-descritpion-products-cnt table tr {
+  margin-bottom: 15px;
+  bottom: solid white 1px;
+}
+
+.hover-descritpion-products-cnt table tr td span {
+  margin-right: 5px;
+  font-size: 16px;
+  color: #fcf1e8;
+}
+
+.hover-descritpion-products-cnt table tr td .hover-descritpion-products-info-values {
+  color: #ff8800;
+}
+
+.hover-descritpion-products-cnt p {
+  color: #a3a19f;
+}
 /*# sourceMappingURL=style.css.map */

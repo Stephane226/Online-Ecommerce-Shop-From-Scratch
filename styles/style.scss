@@ -882,4 +882,28 @@ table{
 }
 .hover-descritpion-products-cnt{
     padding:10px;
+
+    table{
+        tr{
+            margin-bottom:15px;
+            bottom:solid white 1px;
+           
+            td{
+
+                span{
+                    margin-right:5px;
+                    font-size:16px;
+                    color:rgb(252, 241, 232)
+                }
+                .hover-descritpion-products-info-values{
+                    color:$MainThemeColor
+                }
+            }
+        }
+    
+    }
+
+    p{
+        color:rgb(163, 161, 159)
+    }
 }
