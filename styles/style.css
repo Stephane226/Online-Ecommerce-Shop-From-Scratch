@@ -901,6 +901,7 @@ body {
   background-color: rgba(14, 13, 13, 0.795);
   left: 0;
   top: 0;
+  display: none;
 }
 
 .item-image {

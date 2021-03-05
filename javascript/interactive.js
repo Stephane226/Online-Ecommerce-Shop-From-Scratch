@@ -101,4 +101,15 @@ imgList[3].addEventListener('mouseout', function(event){
 
 
 
-    
+    //Function when hovering products show information about that specific product
+
+    var productItemHover = document.getElementsByClassName('hover-descritpion-products');
+    for(i=0; i<productItemHover.length; i++){
+        productItemHover[i].addEventListener('mouseover', showProductShortDescription)
+    }
+
+    function showProductShortDescription(event){
+        var Thetarget = event.target;
+        Thetarget.style.display = 'block'
+
+    }
