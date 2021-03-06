@@ -110,27 +110,43 @@ imgList[3].addEventListener('mouseout', function(event){
 
         var imgProductItemHover = productItemHover[y].getElementsByTagName('button')[0];
         imgProductItemHover.addEventListener('click', showDescProdc);
-        imgProductItemHover.addEventListener('click', hideDescProdc);
+       // imgProductItemHover.addEventListener('click', hideDescProdc);
       
 
     }
-let booleans = true;
     function showDescProdc(event){
 
 
         var parentShowDescProdc = event.target.parentElement.parentElement;
-        console.log(parentShowDescProdc);
+        //console.log(parentShowDescProdc);
         var shortDescription = parentShowDescProdc.getElementsByClassName('hover-descritpion-products')[0];
-        shortDescription.style.display = 'block';
-        booleans = false
+
+       // shortDescription.style.display = ' block';
+       // booleans = false
+
+       //   shortDescription.classList.add("displayBlock");
+       //   console.log(shortDescription)
+
+  if (shortDescription.style.display === "none") {
+    shortDescription.style.display = "block";
+    imgProductItemHover.innerHTML = 'close'
 
 
-        
+  } else {
+    shortDescription.style.display = "none";
+  }
+    
+ 
+          
       
-
-    }
+ 
+    }/*
 function hideDescProdc(event){
     var parentShowDescProdc = event.target.parentElement.parentElement;
     var shortDescription = parentShowDescProdc.getElementsByClassName('hover-descritpion-products')[0];
-    shortDescription.style.display = 'none'
+   // shortDescription.style.display = 'none'  
+   shortDescription.classList.toogle("displayBlock");
+    
 }
+
+*/
