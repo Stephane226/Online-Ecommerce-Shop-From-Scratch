@@ -103,21 +103,26 @@ imgList[3].addEventListener('mouseout', function(event){
 
     //Function when hovering products show information about that specific product
 
-    var productItemHover = document.getElementsByClassName('item-image');
+    var productItemHover = document.getElementsByClassName('button-products-item');
+
     var y;
     for(y=0; y < productItemHover.length; y++){
-        var imgProductItemHover = productItemHover[y].getElementsByTagName('img')[0];
-        imgProductItemHover.addEventListener('mouseover', showDescProdc);
-        imgProductItemHover.addEventListener('mouseout', hideDescProdc);
+
+        var imgProductItemHover = productItemHover[y].getElementsByTagName('button')[0];
+        imgProductItemHover.addEventListener('click', showDescProdc);
+        imgProductItemHover.addEventListener('click', hideDescProdc);
       
 
     }
-
+let booleans = true;
     function showDescProdc(event){
-        var parentShowDescProdc = event.target.parentElement;
+
+
+        var parentShowDescProdc = event.target.parentElement.parentElement;
         console.log(parentShowDescProdc);
         var shortDescription = parentShowDescProdc.getElementsByClassName('hover-descritpion-products')[0];
-        shortDescription.style.display = 'block'
+        shortDescription.style.display = 'block';
+        booleans = false
 
 
         
@@ -125,7 +130,7 @@ imgList[3].addEventListener('mouseout', function(event){
 
     }
 function hideDescProdc(event){
-    var parentShowDescProdc = event.target.parentElement;
+    var parentShowDescProdc = event.target.parentElement.parentElement;
     var shortDescription = parentShowDescProdc.getElementsByClassName('hover-descritpion-products')[0];
     shortDescription.style.display = 'none'
 }

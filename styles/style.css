@@ -134,6 +134,17 @@ body {
   padding: 5px;
 }
 
+.section-top .header-medium .header-Medium-cnt .select-categories li {
+  height: 40px;
+  background-color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+.section-top .header-medium .header-Medium-cnt .select-categories:hover .medium-dropdow-list {
+  display: block;
+}
+
 .section-top .header-medium .header-Medium-cnt .search-bar {
   width: 65%;
   height: 100%;
@@ -211,19 +222,6 @@ body {
   color: #ff8800;
   cursor: pointer;
   background-color: #292424;
-}
-
-.section-top .header-main-menu .main-menu ul li:first-child {
-  width: 250px;
-  font-size: 15px;
-}
-
-.section-top .header-main-menu .main-menu ul li:first-child .fa-bars {
-  margin-right: 10px;
-}
-
-.section-top .header-main-menu .main-menu ul li:first-child .fa-chevron-down {
-  margin-left: 10px;
 }
 
 .section-top .slider-home {

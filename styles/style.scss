@@ -127,6 +127,20 @@ body{
                width:25%;
                height:100%;
                padding:5px;
+
+               li{
+                   
+                   height:40px;
+                   background-color:rgb(255, 255, 255);
+                   list-style:none;
+                   text-decoration:none;
+
+
+               }
+           }
+           .select-categories:hover .medium-dropdow-list{
+
+            display:block;
            }
            .search-bar{
                width:65%;
@@ -162,6 +176,7 @@ body{
     .liMenuDropdown ul{
         display:flex;
         flex-direction: column;
+      
     }
 
     //styles for the main menu
@@ -205,18 +220,7 @@ body{
             }
 
         }
-        ul li:first-child{
-            width:250px;
-            font-size: 15px;
-            .fa-bars{
-                margin-right:10px
-            }
-            .fa-chevron-down{
-                margin-left:10px;
-            }
-            
-
-        }
+        
     }
        
 
