@@ -215,6 +215,10 @@ body {
   transition: 0.4s;
 }
 
+.section-top .header-main-menu .main-menu ul li a {
+  width: 15%;
+}
+
 .section-top .header-main-menu .main-menu ul li:hover {
   border-left: 1px solid white;
   font-weight: 500;

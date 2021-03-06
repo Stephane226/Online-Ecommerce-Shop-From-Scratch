@@ -72,3 +72,28 @@ function deleteItemFromCart(){
 showCartFunction()
 
 }
+
+
+document.getElementById('shopHtml').addEventListener('click', function(){
+  window.open('shop.html', '_self')
+})
+
+
+document.getElementById('collectionHtml').addEventListener('click', function(){
+  window.open('collection.html', '_self')
+})
+
+document.getElementById('blogHtml').addEventListener('click', function(){
+  window.open('blog.html', '_self')
+})
+
+document.getElementById('brandsHtml').addEventListener('click', function(){
+  window.open('brands.html', '_self')
+})
+
+document.getElementById('aboutUsHtml').addEventListener('click', function(){
+  window.open('aboutUs.html', '_self')
+})
+document.getElementsByClassName('logo')[0].addEventListener('click',function(){
+  window.open('index.html', '_self')
+})

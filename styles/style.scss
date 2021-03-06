@@ -210,6 +210,10 @@ body{
                 list-style: none;
                 font-size: 15px;
                 transition: 0.4s;
+
+                a{
+                    width:15%;
+                                }
             }
             li:hover{
                 border-left:1px solid white;
