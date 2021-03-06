@@ -118,7 +118,7 @@ imgList[3].addEventListener('mouseout', function(event){
 
 
         var parentShowDescProdc = event.target.parentElement.parentElement;
-        //console.log(parentShowDescProdc);
+       // console.log('here' + parentShowDescProdc);
         var shortDescription = parentShowDescProdc.getElementsByClassName('hover-descritpion-products')[0];
 
        // shortDescription.style.display = ' block';
@@ -129,11 +129,16 @@ imgList[3].addEventListener('mouseout', function(event){
 
   if (shortDescription.style.display === "none") {
     shortDescription.style.display = "block";
-    imgProductItemHover.innerHTML = 'close'
+   var quickViewBtn =  parentShowDescProdc.getElementsByClassName('quick-view-button')[0];
+    console.log(quickViewBtn)
+   quickViewBtn.innerText = 'close'
 
 
   } else {
     shortDescription.style.display = "none";
+    var quickViewBtn =  parentShowDescProdc.getElementsByClassName('quick-view-button')[0];
+    quickViewBtn.innerText= 'Quick View'
+
   }
     
  
