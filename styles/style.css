@@ -48,6 +48,20 @@ body {
   border-right: 1px solid #cfc8c8;
 }
 
+.section-top .header-top .number-social-icons .header-top-social-media {
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.section-top .header-top .number-social-icons .header-top-social-media .fab:hover {
+  color: #ff8800;
+  cursor: pointer;
+}
+
 .section-top .header-top .lang-top {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -92,11 +106,22 @@ body {
 
 .section-top .header-medium .header-Medium-cnt .select-search-section {
   width: 50%;
-  height: 30px;
+  height: 43px;
   border: 1px solid gray;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.section-top .header-medium .header-Medium-cnt .select-search-section .top-search-bar-input {
+  width: 300px;
+  border-style: none;
+  height: 40px;
+  outline: none;
+  border-left: 1px solid gray;
+  font-size: 17px;
 }
 
 .section-top .header-medium .header-Medium-cnt .medium-dropdow-list {
@@ -122,6 +147,12 @@ body {
 
 .section-top .header-medium .header-Medium-cnt .search-button-icon .fa-search {
   margin: 0 auto;
+}
+
+.section-top .header-medium .header-Medium-cnt .search-button-icon .fa-search:hover {
+  color: #ff8800;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .section-top .header-medium .header-Medium-cnt .shoping-cart-top span {
@@ -159,6 +190,17 @@ body {
   padding: 5px;
   list-style: none;
   font-size: 15px;
+  -webkit-transition: 0.6;
+  transition: 0.6;
+}
+
+.section-top .header-main-menu .main-menu ul li:hover {
+  border-left: 1px solid white;
+  font-weight: 500;
+  font-size: 17px;
+  color: #ff8800;
+  cursor: pointer;
+  background-color: #292424;
 }
 
 .section-top .header-main-menu .main-menu ul li:first-child {
