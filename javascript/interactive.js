@@ -106,8 +106,9 @@ imgList[3].addEventListener('mouseout', function(event){
     var productItemHover = document.getElementsByClassName('item-image');
     var y;
     for(y=0; y < productItemHover.length; y++){
-        productItemHover[y].addEventListener('mouseover', showDescProdc);
-        productItemHover[y].addEventListener('mouseout', hideDescProdc);
+        var imgProductItemHover = productItemHover[y].getElementsByTagName('img')[0];
+        imgProductItemHover.addEventListener('mouseover', showDescProdc);
+        imgProductItemHover.addEventListener('mouseout', hideDescProdc);
       
 
     }
