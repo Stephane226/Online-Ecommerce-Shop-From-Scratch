@@ -594,6 +594,7 @@ border-radius:50%;
             width:22%;
             height:auto;
             border-top:1px solid gray;
+            border-bottom:1px solid gray;
 
             .latest-news-one{
                 display:flex;
@@ -634,6 +635,12 @@ border-radius:50%;
             color:white;
             font-size:15px;
             text-align:center; 
+        }
+        button:hover{
+            background-color:$MainThemeColor;
+            color:black;
+            cursor:pointer;
+
         }
     }
 }

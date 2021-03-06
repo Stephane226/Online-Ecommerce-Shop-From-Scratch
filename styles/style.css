@@ -612,6 +612,7 @@ body {
   width: 22%;
   height: auto;
   border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
 }
 
 .latest-news-home-section .latest-news-home .latest-news-intro .latest-news-one {
@@ -650,6 +651,12 @@ body {
   color: white;
   font-size: 15px;
   text-align: center;
+}
+
+.latest-news-home-section .latest-news-home button:hover {
+  background-color: #ff8800;
+  color: black;
+  cursor: pointer;
 }
 
 .payements-option-section {
