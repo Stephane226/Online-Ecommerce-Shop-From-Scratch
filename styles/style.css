@@ -306,6 +306,15 @@ body {
   border: none;
   outline: none;
   color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.product-item .button-products-item button:hover {
+  background-color: #ff8800;
+  cursor: pointer;
+  width: 50%;
+  color: black;
 }
 
 .product-item .product-short-info {
@@ -435,6 +444,8 @@ body {
 .style-products-section .style-products .style-products-item {
   width: 23%;
   position: relative;
+  margin-bottom: 7px;
+  border-bottom: 1px solid gray;
 }
 
 .style-products-section .style-products .style-products-item img {
@@ -566,6 +577,15 @@ body {
   border: none;
   outline: none;
   color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bottom-featured-products .product-item02 .button-products-item button:hover {
+  background-color: #ff8800;
+  cursor: pointer;
+  width: 50%;
+  color: black;
 }
 
 .bottom-featured-products .product-item02 .product-short-info {
@@ -651,6 +671,8 @@ body {
   color: white;
   font-size: 15px;
   text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .latest-news-home-section .latest-news-home button:hover {
@@ -778,7 +800,7 @@ body {
   color: red;
 }
 
-.footer-section .copyright {
+.copyright {
   width: 100%;
   height: auto;
   background-color: #ff8800;
@@ -936,5 +958,9 @@ body {
 
 .hover-descritpion-products-cnt p {
   color: #a3a19f;
+}
+
+.button-add:hover {
+  color: red;
 }
 /*# sourceMappingURL=style.css.map */
