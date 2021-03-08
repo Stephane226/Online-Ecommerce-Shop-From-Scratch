@@ -1000,3 +1000,21 @@ table{
     //background-color:$MainThemeColor;
 
 }
+
+.categories-header{
+    width:100%;
+   
+    background-color:beige;
+    display:flex;
+    flex-direction: column;
+    
+
+
+    .categorie-one{
+        margin-bottom:10px;
+        width:20%;
+        height:70px;
+        background-color:black;
+        color:white;
+    }
+}
