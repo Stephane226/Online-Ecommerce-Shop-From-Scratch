@@ -97,3 +97,7 @@ document.getElementById('aboutUsHtml').addEventListener('click', function(){
 document.getElementsByClassName('logo')[0].addEventListener('click',function(){
   window.open('index.html', '_self')
 })
+
+document.getElementsByClassName('home-btn')[0].addEventListener('click',function(){
+  window.open('index.html', '_self')
+})  

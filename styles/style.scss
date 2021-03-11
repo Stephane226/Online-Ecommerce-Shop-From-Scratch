@@ -31,9 +31,9 @@ body{
         height:40px;
         border-bottom:1px solid rgb(207, 200, 200);
        font-size:$SmallFont;
-        background-color:rgb(223, 223, 223);
+        background-color:rgb(27, 25, 25);
         display:flex;
-        color:black;
+        color:rgb(255, 255, 255);
         justify-content: space-around;
 
           .top-mail{
@@ -108,15 +108,16 @@ body{
                 height:43px;
                 border:1px solid gray;
                 display:flex;
-                justify-content: space-around;
+               // justify-content: space-around;
 
                 .top-search-bar-input{
-                    width:300px;
+                    width:290px;
                     border-style: none;
                     height:40px;
                     outline:none;
                     border-left:1px solid gray;
                     font-size:17px;
+                    padding-left:7px;
                 }
                 .top-search-bar-input:focus{
                 }
@@ -125,7 +126,7 @@ body{
                 display:none;
             }
            .select-categories{
-               width:25%;
+               width:auto;
                height:100%;
                padding:5px;
 
@@ -217,8 +218,7 @@ body{
             }
             li:hover{
                 border-left:1px solid white;
-               font-weight:500;
-                font-size: 16px;
+               font-weight:600;
                 color:$MainThemeColor;
                 cursor:pointer;
                 background-color:rgb(41, 36, 36)
@@ -258,12 +258,12 @@ body{
                 width:200px;
                 height:50px;
                 border:1px solid gray;
-                background-color:black;
+                background-color:$MainThemeColor;
                 color:white;
                 transition:0.6s;
             }
             button:hover{
-                background-color:$MainThemeColor;
+                background-color:black;
                 cursor:pointer;
             }
 

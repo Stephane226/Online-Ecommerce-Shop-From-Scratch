@@ -18,11 +18,11 @@ body {
   height: 40px;
   border-bottom: 1px solid #cfc8c8;
   font-size: 13px;
-  background-color: #dfdfdf;
+  background-color: #1b1919;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: black;
+  color: white;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
@@ -111,17 +111,16 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
 }
 
 .section-top .header-medium .header-Medium-cnt .select-search-section .top-search-bar-input {
-  width: 300px;
+  width: 290px;
   border-style: none;
   height: 40px;
   outline: none;
   border-left: 1px solid gray;
   font-size: 17px;
+  padding-left: 7px;
 }
 
 .section-top .header-medium .header-Medium-cnt .medium-dropdow-list {
@@ -129,7 +128,7 @@ body {
 }
 
 .section-top .header-medium .header-Medium-cnt .select-categories {
-  width: 25%;
+  width: auto;
   height: 100%;
   padding: 5px;
 }
@@ -221,8 +220,7 @@ body {
 
 .section-top .header-main-menu .main-menu ul li:hover {
   border-left: 1px solid white;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 600;
   color: #ff8800;
   cursor: pointer;
   background-color: #292424;
@@ -259,14 +257,14 @@ body {
   width: 200px;
   height: 50px;
   border: 1px solid gray;
-  background-color: black;
+  background-color: #ff8800;
   color: white;
   -webkit-transition: 0.6s;
   transition: 0.6s;
 }
 
 .section-top .slider-home .banner-content-text button:hover {
-  background-color: #ff8800;
+  background-color: black;
   cursor: pointer;
 }
 
