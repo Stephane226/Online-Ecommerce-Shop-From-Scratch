@@ -1075,17 +1075,19 @@ table{
 }
 /*admin*/
 .menu-left{
-    width:17%;
+    width:15%;
     min-height:500px;
-    background-color:#16313A;
+    background-color:#19222E;
+
   }
   .admin-page{
     width:100%;
     padding: 0;
-    min-height:500px;
-    background-color:#a3a19f;
+    height:1100px;
+    background-color:#f7f7f7;
     display:flex;
     justify-content: flex-start;
+    overflow-y: hidden;
   
      
   }
@@ -1100,6 +1102,9 @@ table{
         width:100%;
         height:60px;
         padding:10px;
+        display:flex;
+        justify-content: space-between;
+        color:white;
         
     }
 
@@ -1111,10 +1116,61 @@ table{
         
     }
     .text-logo{
-        color:white;
-        margin-left:40px
+        color:rgb(255, 255, 255);
+        margin-left:20px;
+        display:flex;
+        justify-content: space-between;
+        margin-right:20px;
+        font-weight:600;
     }
     .text-logo .fas{
-        font-size:30px;
-        color:white
+        font-size:22px;
+        color:rgb(255, 255, 255)
+    }
+    .ul li .span{
+        color:rgb(255, 255, 255);
+        background-color:green;
+        width:30px;
+        height:30px;
+        font-weight:600;
+        border-radius:50%;
+        text-align:center;
+        padding:5px;
+        
+    }
+    .admin-top{
+
+        display:flex;
+        justify-content: space-between;
+        width:100%;
+        border-bottom: 1px solid rgb(230, 227, 227);
+        background-color:whitesmoke
+    }
+    .admin-top-right{
+ 
+        width:15%;
+        display:flex;
+        justify-content: space-around;
+    }
+    .admin-top-left{
+         width:15%;
+    
+    background-color:#19222E;
+    color:rgb(255, 255, 255)
+    }
+    .admin-top-left span{
+
+        margin-top: 7px;
+    }
+
+    .admin-top-right div{
+        width: 50px;
+        border-left: 1px solid rgb(189, 189, 189);
+        height: 50px;
+        padding: 10px;
+        height: 62px;
+        text-align: center;
+    }
+    .admin-top-right div .fas{
+            font-size:17px
     }
