@@ -1178,31 +1178,112 @@ table{
   }
    .admin-page-right-side{
     width:90%;
-    height:500px;
-    background-color:white;
+    min-height:500px;
+    
 
   
 
 }
 
   .admin-page-right-side{
-    width: 30%;
-    background-color: #f1efef;
-    border-left: 1px solid #e4e2e2;
-
 
    
-}  .right-side-tab-parent{
-    width:90%;
-    margin:0 auto;
-    display:flex;
-    justify-content:space-around;
+    background-color: #efefef;
+    width: 30%;
+    border-left: 1px solid #d4d4d4;
+}
+.right-side-tab-parent{
+    width:95%;
+    
 
-  
+    margin:0 auto;
+    display:flex; 
+    justify-content:space-around;
 }
 .right-side-tab{
-    width:45%;
-    height:200px;
-    background-color:wheat;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    border-radius:3px;
+    width:48%;
+    height:150px;
+    background-color:rgb(65, 98, 163);
     margin:0 auto;
+}
+.admin-tab-cnt{
+    display:flex;
+     justify-content: space-between;
+     padding:10px;
+     border-top: 1px solid gray;
+     border-bottom:1px solid gray;
+    
+     height:90px;
+}
+.admin-tab-cnt-top-bottom{
+    color:white;
+    font-size:15px;
+    font-weight:600;
+    padding:5px;
+
+}
+.admin-tab-cnt .fas{
+
+    color:white;
+    font-size:45px;
+}
+.admin-tab-cnt .far{
+
+    color:white;
+    font-size:45px;
+}
+.admin-tab-cnt .admin-tab-cnt-value{
+
+    color:white;
+    font-size:30px;
+    font-weight:400;
+}
+.customers-buyers{
+    width:95%;
+    background-color:white;
+    margin:0 auto;
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 2px, rgb(0 0 0 / 7%) 0px 2px 4px, rgb(0 0 0 / 7%) 0px 4px 8px, rgb(0 0 0 / 7%) 0px 8px 16px, rgb(0 0 0 / 7%) 0px 16px 32px, rgb(0 0 0 / 7%) 0px 32px 64px;
+    border-radius: 3px;
+
+}
+.customers-buyers table{
+ width:100%;
+
+
+}
+.customers-buyers table tr{
+    width:100%;
+    
+   
+   }
+   .customers-buyers table tr th{
+    width:17%;
+    height:50px;
+    padding:5px;
+    border-top:1px solid grey;
+    
+   
+   }
+   .customers-buyers table tr td{
+    width:19%;
+    height:50px;
+    padding:5px;
+    border-top:1px solid grey;
+    
+   
+   }
+   .customers-buyers table tr th .far{
+       font-size:30px;
+   }
+   .customers-buyers table tr td .fas{
+    font-size:20px;
+    color:green;
+}
+.table-title{
+    padding-top:10px;
+    margin-left:20px;
+    font-weight:600;
+    color:rgb(71, 71, 71);
 }
