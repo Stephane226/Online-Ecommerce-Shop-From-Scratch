@@ -1098,7 +1098,165 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/*admin*/
+.menu-left {
+  width: 13%;
+  min-height: 500px;
+  background-color: #19222E;
+}
+
+.admin-page {
+  width: 70%;
+  margin: 0;
+  padding: 0;
+  height: 1100px;
+  background-color: #f7f7f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  overflow-y: hidden;
+}
+
+.ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+}
+
+.ul li a {
+  color: white;
+  font-size: 19px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.text-logo {
+  color: white;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+.text-logo .fas {
+  font-size: 22px;
+  color: white;
+}
+
+.ul li .span {
+  color: white;
+  background-color: green;
+  width: 25px;
+  height: 25px;
+  font-weight: 600;
+  border-radius: 50%;
+  text-align: center;
+  padding: 5px;
+}
+
+.admin-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #e6e3e3;
+  background-color: whitesmoke;
+}
+
+.admin-top-right {
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.admin-top-left {
+  width: 13%;
+  background-color: #19222E;
+  color: white;
+}
+
+.admin-top-left span {
+  margin-top: 7px;
+}
+
+.admin-top-right div {
+  width: 50px;
+  border-left: 1px solid #bdbdbd;
+  height: 50px;
+  padding: 10px;
+  height: 62px;
+  text-align: center;
+}
+
+.admin-top-right div .fas {
+  font-size: 17px;
+}
+
+.main-admin-page {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.admin-page-right-side {
+  width: 90%;
+  height: 500px;
+  background-color: white;
+}
+
+.admin-page-right-side {
+  width: 30%;
+  background-color: #f1efef;
+  border-left: 1px solid #e4e2e2;
+}
+
+.right-side-tab-parent {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.right-side-tab {
+  width: 45%;
+  height: 200px;
+  background-color: wheat;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style.css.map */
-
-
-

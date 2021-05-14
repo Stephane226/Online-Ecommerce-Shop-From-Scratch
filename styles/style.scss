@@ -119,8 +119,7 @@ body{
                     font-size:17px;
                     padding-left:7px;
                 }
-                .top-search-bar-input:focus{
-                }
+               
             }
             .medium-dropdow-list{
                 display:none;
@@ -520,9 +519,7 @@ border-radius:50%;
                       h4{
                           margin:3px;
                       }
-                      .price-value{
-                         
-                      }
+                     
                       .price-value-borrow{
                           text-decoration:line-through;
                           color:rgb(150, 150, 150)
@@ -778,9 +775,7 @@ border-radius:50%;
                 text-transform: uppercase;
                 color:$MainThemeColor;
 
-                h4{
-
-                }
+               
             }
 
            ul{
@@ -1075,13 +1070,14 @@ table{
 }
 /*admin*/
 .menu-left{
-    width:15%;
+    width:13%;
     min-height:500px;
     background-color:#19222E;
 
   }
   .admin-page{
-    width:100%;
+    width:70%;
+    margin:0;
     padding: 0;
     height:1100px;
     background-color:#f7f7f7;
@@ -1130,8 +1126,8 @@ table{
     .ul li .span{
         color:rgb(255, 255, 255);
         background-color:green;
-        width:30px;
-        height:30px;
+        width:25px;
+        height:25px;
         font-weight:600;
         border-radius:50%;
         text-align:center;
@@ -1153,7 +1149,7 @@ table{
         justify-content: space-around;
     }
     .admin-top-left{
-         width:15%;
+         width:13%;
     
     background-color:#19222E;
     color:rgb(255, 255, 255)
@@ -1174,3 +1170,39 @@ table{
     .admin-top-right div .fas{
             font-size:17px
     }
+  .main-admin-page{
+
+    width:100%;
+    display:flex;
+    justify-content: flex-start;
+  }
+   .admin-page-right-side{
+    width:90%;
+    height:500px;
+    background-color:white;
+
+  
+
+}
+
+  .admin-page-right-side{
+    width: 30%;
+    background-color: #f1efef;
+    border-left: 1px solid #e4e2e2;
+
+
+   
+}  .right-side-tab-parent{
+    width:90%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-around;
+
+  
+}
+.right-side-tab{
+    width:45%;
+    height:200px;
+    background-color:wheat;
+    margin:0 auto;
+}
