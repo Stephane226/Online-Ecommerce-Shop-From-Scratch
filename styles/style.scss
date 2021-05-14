@@ -1458,11 +1458,11 @@ hr {
     width: 100%;
     color: rgb(241, 237, 237);
     margin: 0 auto;
-    padding: 10px;
+    padding: 3px;
     height: auto;
     min-height: 800px;
-    background-color: rgb(236, 236, 236);
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: rgb(0 0 0 / 2%) 0px 1px 3px 0px, rgb(27 31 35 / 15%) 0px 0px 0px 1px; */
     padding: 5px;
 }
 .blog-row{
@@ -1472,10 +1472,10 @@ hr {
     padding: 10px;
     margin-top: 0px;
     margin-right: auto;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
     margin-left: auto;
     background-color: #19222e;
-    box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+    box-shadow: rgb(50, 50, 93 / 25%) 0px 50px 100px -20px, rgb(0, 0, 0 / 30%) 0px 30px 60px -30px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .blog-row table{
@@ -1483,7 +1483,7 @@ hr {
     height:40px;
     margin-bottom:10px;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 13px;
 }
 .blog-row table tr td a{
     text-decoration:none;
