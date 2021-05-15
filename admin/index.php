@@ -66,7 +66,7 @@
     </ul>
     </nav>
   </div>
-
+<!-- ADMİN                THEME-->
     <div class="tab-content tabs-content-admin">
         <div class="tab-pane active" id="Theme">
             <div lcass="row"> 
@@ -77,7 +77,7 @@
             </div>
         </div>
 
-
+<!-- ADMİN                HOME-->
         <div class="tab-pane " id="Home">
           <div lcass="row"> 
             <div class="">
@@ -87,7 +87,7 @@
           </div>
       </div>
 
-
+<!-- ADMİN                HEADER-->
       <div class="tab-pane " id="Header">
         <div lcass="row"> 
           <div >
@@ -97,7 +97,7 @@
         </div>
     </div>
 
-    
+    <!-- ADMİN                FOOTER-->
     <div class="tab-pane " id="Footer">
       <div lcass="row"> 
         <div >
@@ -108,29 +108,120 @@
   </div>
 
 
-   
+   <!-- ADMİN                CATEGORIES-->
   <div class="tab-pane " id="Categories">
     <div lcass="row"> 
       <div >
-        Categories
+
+      <div class="blog-row Categories-admin" id="Categories-header">
+        <table>
+      <tr>
+           
+           <th width="10%">No</th>
+               <th width="60%">Category Name:</th>
+             <th width="20"><span>Products </span></th>
+             <th width="10%"><span>Edit</span></th>
+      
+           </tr>
+           </table>
+           </div>
+      <div class="blog-row Categories-admin">
+         <table>
+       
+
+           <tr>
+           
+           <td width="10%">01</td>
+               <td width="60%">Men T-shirt Summer</td>
+             <td width="30"><span>109</span></td>
+             <td width="10%"><span><i class="fas fa-pen"></i></span></td>
+      
+           </tr>
+         </table>
+         </div>
       </div>
 
     </div>
 </div>
 
 
- 
+ <!-- ADMİN                PRODUCTS-->
 <div class="tab-pane " id="Products">
   <div lcass="row"> 
     <div >
-      Products
+    <section id="section-products">
+  <div class="admin-tables">
+   <h3 style="margin-left:50px"> All Posts <a href="post.php"> <button class="add-post-top-btn">Add Post <i class="fas fa-plus-circle"></i></button></a> </h3>
+        
+<br>
+        
+
+<?php 
+
+require("../connectdb.php");
+
+
+
+
+$select = $conn->query("SELECT * FROM blog_posts");
+while($row = $select->fetch()){
+ $id = $row['id'];
+ $title = $row['Title'];
+ $minicontent = $row['Minicontent'];
+ $content = $row['Content'];
+ $image = $row['Image'];
+ $banner = $row['Banner'];
+ $date = $row['Date'];
+ 
+
+  ?>
+  
+  <div class="blog-row products-admin">
+         <table>
+           <tr>
+             <td width="8%"><img src="../images/products/m1.jpg" width="40px" height="40px" alt=""> </td>
+             <td width="25%">Men T-shirt Summer</td>
+             <td width="10%"><span>P-59</span></td>
+             <td width="10%"><span>$</span><span>89</span></td>
+             <td width="7%">158</td>
+             <td width="10%"> <a href="view.php?id=<?php echo $id  ?>"> <span><i class="fas fa-eye"></i> </span>  View </a> </td>
+             <td width="10%"><span><i style="font-size:20px;" class="fas fa-toggle-on"></i></span></td>
+             <td width="10%"> <a href="delete.php?id=<?php echo $id  ?>"> <span> <i class="fas fa-trash"></i> </span> Delete</a></td>
+             <td width="10%"> <a href="modify.php?id=<?php echo $id  ?>">  <span> <i class="fas fa-pen"></i> </span> Modify </a></td>
+
+           </tr>
+         </table>
+         </div>
+       
+  
+  
+  
+  <?php
+
+}
+
+?>
+        
+
+       
+  </div>
+
+<div class="search-produt-admin">
+  <h4>Search By Qr</h4>
+  <input type="number"> <span><i class="fas fa-search"></i></span>
+<br>
+</div>
+
+</section>
+
+
     </div>
 
   </div>
 </div>
 
 
- 
+ <!-- ADMİN                BRANDS-->
 <div class="tab-pane " id="Brands">
   <div lcass="row"> 
     <div >
@@ -141,7 +232,7 @@
 </div>
 
 
- 
+ <!-- ADMİN                SALES-->
 <div class="tab-pane " id="Sales">
   <div lcass="row"> 
     <div >
@@ -152,7 +243,7 @@
 </div>
 
 
- 
+ <!-- ADMİN                STORE-->
 <div class="tab-pane " id="Store">
   <div lcass="row"> 
     <div >
@@ -163,7 +254,7 @@
 </div>
 
 
- 
+ <!-- ADMİN                MAILS-->
 <div class="tab-pane " id="Mails">
   <div lcass="row"> 
     <div >
@@ -174,7 +265,7 @@
 </div>
 
 
- 
+ <!-- ADMİN                TOP-->
 <div class="tab-pane " id="Top">
   <div lcass="row"> 
     <div >
@@ -185,7 +276,7 @@
 </div>
 
 
- 
+ <!-- ADMİN                BLOG-->
 <div class="tab-pane " id="Blog">
   <div lcass="row"> 
     <div >
@@ -268,7 +359,7 @@ while($row = $select->fetch()){
 </div>
 
 
- 
+ <!-- ADMİN                ABOUT-->
 <div class="tab-pane " id="About">
   <div lcass="row"> 
     <div >
